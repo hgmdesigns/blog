@@ -1,0 +1,5 @@
+{
+    "scripts": {
+      "deploy": "gatsby build && gh-pages -d public -b master -r \"https://blogger:$PA_TOKEN@github.com/blogger/blogger.github.io.git\""
+    }
+  }
